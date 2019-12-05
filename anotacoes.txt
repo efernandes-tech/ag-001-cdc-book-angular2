@@ -8,3 +8,10 @@
         tsc -v
         npm install -g @angular/cli
         ng -v
+- 2.6 COMANDOS DO ANGULAR CLI
+    ng new
+    ng init
+    ng server
+    ng generate OU ng g
+    ng lint
+    ng test
