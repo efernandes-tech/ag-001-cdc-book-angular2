@@ -54,3 +54,5 @@
 - 4.7 REAPROVEITAMENTO DE LISTA DENTRO DO ANGULAR 2
 - 4.8 NGCLASS
     ng g c ng-class
+- 4.9 NGSTYLE
+    ng g c ng-style
