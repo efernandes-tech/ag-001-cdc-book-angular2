@@ -56,3 +56,5 @@
     ng g c ng-class
 - 4.9 NGSTYLE
     ng g c ng-style
+- 4.10 NGCONTENT
+    ng g c ng-content
