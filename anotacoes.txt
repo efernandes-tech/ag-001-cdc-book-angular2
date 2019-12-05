@@ -49,3 +49,5 @@
     ng g c ng-if
 - 4.5 NGSWITCH
     ng g c ng-switch-case
+- 4.6 NGFOR
+    ng g c ng-for
