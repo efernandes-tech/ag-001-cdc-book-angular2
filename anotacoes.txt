@@ -29,3 +29,5 @@
     - Property binding
     - Event binding
     - Two-way data binding
+- 3.8 DIRETIVAS
+    - Diretivas estruturais
