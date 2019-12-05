@@ -51,3 +51,4 @@
     ng g c ng-switch-case
 - 4.6 NGFOR
     ng g c ng-for
+- 4.7 REAPROVEITAMENTO DE LISTA DENTRO DO ANGULAR 2
