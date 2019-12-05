@@ -41,3 +41,5 @@
 - 3.12 MELHORANDO NOSSO COMPONENTE
 - 4.1 INTERPOLATION
     ng g c interpolation-binding
+- 4.2 PROPERTY BINDING
+    ng g c property-binding
