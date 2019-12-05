@@ -47,3 +47,5 @@
     ng g c two-way-binding
 - 4.4 NGIF
     ng g c ng-if
+- 4.5 NGSWITCH
+    ng g c ng-switch-case
