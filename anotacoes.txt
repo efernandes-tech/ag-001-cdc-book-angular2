@@ -38,3 +38,4 @@
         ng g s pessoa-service
 - 3.10 INJEÇÃO DE DEPENDÊNCIA
 - 3.11 NGMODULE
+- 3.12 MELHORANDO NOSSO COMPONENTE
