@@ -31,3 +31,8 @@
     - Two-way data binding
 - 3.8 DIRETIVAS
     - Diretivas estruturais
+- 3.9 SERVIÇOS
+        ng generate service alerta
+    - Criar uma classe de serviço.
+        cd src/app/lista-pessoa
+        ng g s pessoa-service
