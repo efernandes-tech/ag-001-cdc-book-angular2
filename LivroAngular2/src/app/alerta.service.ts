@@ -5,4 +5,8 @@ export class AlertaService {
 
   constructor() { }
 
+  msgAlerta(): void {
+    alert('Livro Angular 2');
+  }
+
 }
