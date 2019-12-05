@@ -27,3 +27,4 @@
 - 3.7 DATA BINDING
     - Interpolation
     - Property binding
+    - Event binding
