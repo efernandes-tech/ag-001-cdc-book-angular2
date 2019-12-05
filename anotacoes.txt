@@ -26,3 +26,4 @@
 - 3.6 METADATA
 - 3.7 DATA BINDING
     - Interpolation
+    - Property binding
