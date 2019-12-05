@@ -43,3 +43,5 @@
     ng g c interpolation-binding
 - 4.2 PROPERTY BINDING
     ng g c property-binding
+- 4.3 TWO-WAY DATA BINDING
+    ng g c two-way-binding
