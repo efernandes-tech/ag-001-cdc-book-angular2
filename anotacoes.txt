@@ -45,3 +45,5 @@
     ng g c property-binding
 - 4.3 TWO-WAY DATA BINDING
     ng g c two-way-binding
+- 4.4 NGIF
+    ng g c ng-if
