@@ -37,3 +37,4 @@
         cd src/app/lista-pessoa
         ng g s pessoa-service
 - 3.10 INJEÇÃO DE DEPENDÊNCIA
+- 3.11 NGMODULE
