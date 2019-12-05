@@ -9,6 +9,8 @@ export class ListaPessoaComponent implements OnInit {
 
   pessoas: string[];
 
+  nome: string = 'Ederson';
+
   constructor() { }
 
   ngOnInit() {

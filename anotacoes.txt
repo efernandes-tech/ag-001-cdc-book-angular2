@@ -28,3 +28,4 @@
     - Interpolation
     - Property binding
     - Event binding
+    - Two-way data binding
