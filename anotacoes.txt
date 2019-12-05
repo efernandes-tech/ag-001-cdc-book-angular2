@@ -22,3 +22,4 @@
 - 3.3 PARTES DO COMPONENTE EM ANGULAR 2
     ng generate component lista-pessoa
 - 3.4 COMPONENTE
+- 3.5 TEMPLATE
