@@ -19,3 +19,5 @@
     ng new LivroAngular2
     cd LivroAngular2
     ng server
+- 3.3 PARTES DO COMPONENTE EM ANGULAR 2
+    ng generate component lista-pessoa
