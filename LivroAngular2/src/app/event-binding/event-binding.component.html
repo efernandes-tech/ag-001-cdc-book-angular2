@@ -21,3 +21,9 @@
 <ul>
   <li *ngFor="let item of valores">{{item}}</li>
 </ul>
+
+<hr>
+
+<h3>blur</h3>
+<input type="text" #data (blur)="verIdade(data.value)">
+<p>Você tem: {{idade}} anos de idade</p>
