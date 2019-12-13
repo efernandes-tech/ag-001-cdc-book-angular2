@@ -74,3 +74,4 @@
 - 5.6 (BLUR)
 - 5.7 @INPUT() PROPERTY
     ng g c input-output
+- 5.8 @OUTPUT PROPERTY
