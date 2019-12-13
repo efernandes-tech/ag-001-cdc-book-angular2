@@ -20,4 +20,10 @@ export class EventBindingComponent implements OnInit {
     console.log($event);
   }
 
+  //
+
+  digitouVarTemplate(valor): void {
+    console.log(valor);
+  }
+
 }

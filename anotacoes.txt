@@ -68,3 +68,4 @@
     ng g c ng-content
 - 5.1 EVENT BINDING
     ng g c event-binding
+- 5.2 VARIÁVEL DE REFERÊNCIA DO TEMPLATE

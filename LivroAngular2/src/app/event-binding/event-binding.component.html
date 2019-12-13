@@ -3,3 +3,7 @@
 <button (click)="meuClick()">Click aqui</button>
 
 <input (keyup)="digitou($event)">
+
+<hr>
+
+<input #valorInput (keyup)="digitouVarTemplate(valorInput.value)">
