@@ -13,3 +13,11 @@
 <h3>evento keyup para validação de senha</h3>
 <input type="password" #qtdSenha (keyup)="validaSenha(qtdSenha.value)">
 <button [disabled]="! habilitarBotao" (click)="gravarSenha(qtdSenha.value)">gravar senha</button>
+
+<hr>
+
+<h3>evento keyup.enter adicionar na lista</h3>
+<input type="text" #conteudo (keyup.enter)="adicionar(conteudo.value); conteudo.value=''">
+<ul>
+  <li *ngFor="let item of valores">{{item}}</li>
+</ul>

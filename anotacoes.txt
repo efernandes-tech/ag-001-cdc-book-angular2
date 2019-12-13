@@ -70,3 +70,4 @@
     ng g c event-binding
 - 5.2 VARIÁVEL DE REFERÊNCIA DO TEMPLATE
 - 5.4 (KEYUP)
+- 5.5 (KEYUP.ENTER)
