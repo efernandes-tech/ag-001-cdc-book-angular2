@@ -66,3 +66,5 @@
     ng g c ng-style
 - 4.10 NGCONTENT
     ng g c ng-content
+- 5.1 EVENT BINDING
+    ng g c event-binding
