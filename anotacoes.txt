@@ -1,12 +1,20 @@
 # ag-001-cdc-book-angular2
 
+# Run:
+    npm install -g typescript
+    npm install -g @angular/cli@1
+
+    cd LivroAngular2
+    npm install
+    ng server
+
 # Anotações:
 
 - CAPÍTULO 2 CONFIGURAÇÃO DO AMBIENTE
     - Instalar o NodeJS, NPM, TypeScript e o Angular CLI.
         npm install -g typescript
         tsc -v
-        npm install -g @angular/cli
+        npm install -g @angular/cli@1
         ng -v
 - 2.6 COMANDOS DO ANGULAR CLI
     ng new
