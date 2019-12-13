@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EventBindingComponent implements OnInit {
 
+  habilitarBotao: boolean = false;
+
   constructor() { }
 
   ngOnInit() {
@@ -24,6 +26,20 @@ export class EventBindingComponent implements OnInit {
 
   digitouVarTemplate(valor): void {
     console.log(valor);
+  }
+
+  //
+
+  validaSenha(valor: string): void {
+    if (valor.length >= 5) {
+      this.habilitarBotao = true;
+    } else {
+      this.habilitarBotao = false;
+    }
+  }
+
+  gravarSenha(senha): void {
+    alert('senha gravada com sucesso sua senha é: ' + senha);
   }
 
 }

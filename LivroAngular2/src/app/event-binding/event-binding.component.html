@@ -7,3 +7,9 @@
 <hr>
 
 <input #valorInput (keyup)="digitouVarTemplate(valorInput.value)">
+
+<hr>
+
+<h3>evento keyup para validação de senha</h3>
+<input type="password" #qtdSenha (keyup)="validaSenha(qtdSenha.value)">
+<button [disabled]="! habilitarBotao" (click)="gravarSenha(qtdSenha.value)">gravar senha</button>
