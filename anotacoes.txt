@@ -114,4 +114,9 @@
     ng g c lista-usuario
 
     cd src/app/modelos
-    ng g s pessoa-service
+    ng g s contato-model
+
+    cd src/app/servicos
+    ng g s contatos-data-base
+- 8.2 INSTALAÇÃO DO BOOTSTRAP
+    npm install --save bootstrap
