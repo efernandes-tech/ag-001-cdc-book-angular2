@@ -75,3 +75,8 @@
 - 5.7 @INPUT() PROPERTY
     ng g c input-output
 - 5.8 @OUTPUT PROPERTY
+- CAPÍTULO 6 FORMULÁRIOS
+    ng g c formulario
+
+    cd src/app/formulario
+    ng g class Contatos
