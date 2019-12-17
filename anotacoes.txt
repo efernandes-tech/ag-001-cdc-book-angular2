@@ -84,3 +84,10 @@
 - 6.2 VALIDAÇÕES DE FORMULÁRIO
 - 6.3 NGMODELGROUP
 - 6.4 ENVIANDO DADOS DO FORMULÁRIO
+- CAPÍTULO 7 INJEÇÃO DE DEPENDÊNCIAS
+- 7.2 INSTANCIANDO SERVIÇOS MANUALMENTE
+    ng g c di
+
+    cd src/app/di
+    ng g s nomes-tec
+    ng g s meu-log
