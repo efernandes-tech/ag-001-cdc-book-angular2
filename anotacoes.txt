@@ -91,3 +91,4 @@
     cd src/app/di
     ng g s nomes-tec
     ng g s meu-log
+- 7.3 INJETANDO UMA DEPENDÊNCIA

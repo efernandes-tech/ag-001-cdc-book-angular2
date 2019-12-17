@@ -12,14 +12,18 @@ import { MeuLogService } from './meu-log.service';
 export class DiComponent implements OnInit {
 
   tecnologias: string [] = [];
-  meuService: NomesTecService;
-  meuLog: MeuLogService;
+  // meuService: NomesTecService;
+  // meuLog: MeuLogService;
 
-  constructor() {
+  /*constructor() {
     this.meuLog = new MeuLogService;
     this.meuService = new NomesTecService(this.meuLog);
     this.tecnologias = this.meuService.getNomesTec();
-    }
+  }*/
+
+  constructor(private meuService: NomesTecService) {
+    this.tecnologias = meuService.getNomesTec();
+  }
 
   ngOnInit() {
   }

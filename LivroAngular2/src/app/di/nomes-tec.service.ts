@@ -4,10 +4,10 @@ import { MeuLogService } from './meu-log.service';
 @Injectable()
 export class NomesTecService {
 
-  meuLog: MeuLogService;
+  // meuLog: MeuLogService;
 
-  constructor(meuLog: MeuLogService) {
-    this.meuLog = meuLog;
+  constructor(private meuLog: MeuLogService) {
+    // this.meuLog = meuLog;
   }
 
   getNomesTec(): string [] {
