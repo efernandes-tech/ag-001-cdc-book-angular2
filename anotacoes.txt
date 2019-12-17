@@ -4,7 +4,13 @@
     npm install -g typescript
     npm install -g @angular/cli@1
 
+# Run Exemplos:
     cd LivroAngular2
+    npm install
+    ng server
+
+# Run Proj. Final:
+    cd ProjetoFinal
     npm install
     ng server
 
@@ -98,4 +104,14 @@
 
 
 - CAPÍTULO 8 PROJETO FINAL
--
+- 8.1 CRIAÇÃO DO NOVO PROJETO
+    ng new ProjetoFinal
+    cd ProjetoFinal
+    ng server
+
+    ng generate component dados-usuario
+    ng g c detalhe-usuario
+    ng g c lista-usuario
+
+    cd src/app/modelos
+    ng g s pessoa-service
