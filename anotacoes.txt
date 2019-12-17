@@ -114,10 +114,11 @@
     ng g c lista-usuario
 
     cd src/app/modelos
-    ng g s contato-model
+    ng g class contato-model
 
     cd src/app/servicos
     ng g s contatos-data-base
 - 8.2 INSTALAÇÃO DO BOOTSTRAP
     npm install --save bootstrap
 - 8.3 ARQUITETURA DO PROJETO
+- 8.4 CLASSE DE MODELO PARA OS CONTATOS
