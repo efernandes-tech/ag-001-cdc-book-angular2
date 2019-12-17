@@ -1,6 +1,6 @@
 # ag-001-cdc-book-angular2
 
-# Run:
+# Install:
     npm install -g typescript
     npm install -g @angular/cli
     npm install -g http-server
@@ -15,7 +15,7 @@
     npm install
     ng server
     - Deploy PROD:
-        ng build --target=production --environment=prod
+        ng build --prod=true
     - Run PROD:
         cd dist
         http-server
