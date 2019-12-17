@@ -1,15 +1,14 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input } from '@angular/core';
+
+import { ContatoModel } from '../modelos/contato-model';
 
 @Component({
   selector: 'app-detalhe-usuario',
   templateUrl: './detalhe-usuario.component.html',
   styleUrls: ['./detalhe-usuario.component.css']
 })
-export class DetalheUsuarioComponent implements OnInit {
+export class DetalheUsuarioComponent {
 
-  constructor() { }
-
-  ngOnInit() {
-  }
+  @Input() contato: ContatoModel;
 
 }
