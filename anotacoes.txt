@@ -120,3 +120,4 @@
     ng g s contatos-data-base
 - 8.2 INSTALAÇÃO DO BOOTSTRAP
     npm install --save bootstrap
+- 8.3 ARQUITETURA DO PROJETO
