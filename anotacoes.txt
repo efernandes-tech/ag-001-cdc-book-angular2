@@ -81,3 +81,4 @@
     cd src/app/formulario
     ng g class Contatos
 - 6.1 NGMODEL, VARIÁVEL DE TEMPLATE E ATRIBUTO NAME DA TAG HTML
+- 6.2 VALIDAÇÕES DE FORMULÁRIO
