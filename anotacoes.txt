@@ -3,6 +3,7 @@
 # Run:
     npm install -g typescript
     npm install -g @angular/cli@1
+    npm install http-server -g
 
 # Run Exemplos:
     cd LivroAngular2
@@ -13,6 +14,11 @@
     cd ProjetoFinal
     npm install
     ng server
+    - Deploy PROD:
+        ng build --target=production --environment=prod
+    - Run PROD:
+        cd dist
+        http-server
 
 # Anotações:
 
@@ -126,3 +132,6 @@
 - 8.6 COMPONENTE DE CADASTRO DE CONTATO
 - 8.7 COMPONENTE DE LISTA DOS CONTATOS
 - 8.8 COMPONENTE DE DETALHE DO CONTATO
+- 8.9 FAZENDO BUILD PARA PRODUÇÃO
+    ng build --target=production --environment=prod
+    npm install http-server -g
